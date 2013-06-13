@@ -1,0 +1,168 @@
+/* ===Layout=== */
+#container {
+margin-left:-5px;
+width:1340px;
+}
+
+#header {
+width:100%;
+height:130px;
+background-color:#555555;
+border-bottom: 1.5px none #000000;
+margin-top:-20px;
+}
+
+#banner {
+background-color:#111111;
+height:100px;
+width:100%;
+margin-top:-25px;
+}
+
+#main{
+float:left;
+width:740px;
+height:520px;
+margin-left:200px;
+background-color:#ffffff;
+position:relative;
+background-repeat:no-repeat;
+}
+
+#sidebar {
+float:left;
+background-color:#ffffff;
+height:520px;
+width:199px;
+border-left:1px dotted green;
+}
+
+#footer{
+clear:both;
+background-color:#111111;
+max-height:300px;
+width:1340px;
+}
+
+
+/* ===Global=== */
+body {
+background-color:#000000;
+background-image:url('images/tech.jpg');
+font-size:100%;
+}
+
+h3 {
+font-family:Georgia;
+font-size:1.5em;
+text-align:center;
+text-transform:uppercase;
+color:#ffffff;
+line-height:90px;
+}
+
+h2{
+text-align:left;
+font-family:"Times New Roman";
+font-size:150%;
+line-height:90%;
+color:#000000;
+}
+
+h5 {
+color:#ffffff;
+text-align:center;
+}
+
+
+/* ===Header=== */
+#header h1 {
+font-family:Georgia;
+color:#ffffff;
+margin-left:25px;
+}
+
+#header ul {
+margin: 75px 0px 0px 200px;
+}
+
+#header li {
+display:inline;
+padding:8px;
+}
+
+a.menu:link{
+font-family:Times New Roman;
+font-size:120%;
+color:#ffffff;
+text-decoration:none;
+background-color:#999999;
+}
+
+a.menu:visited {
+font-family:Times New Roman;
+font-size:120%;
+color:#000000;
+text-decoration:none;
+}
+
+a.menu:hover{
+font-family:Times New Roman;
+font-size:120%;
+color:#ffffff;
+text-decoration:none;
+background-color:#336699;
+}
+
+a.menu:active{
+font-family:Georgia;
+font-size:140%;
+color:#ffffff;
+text-decoration:line-through;
+}
+
+#header form{
+position:absolute;
+top:0;
+right:0;
+margin:25px 15px 0px 0px;
+}
+
+#header input {
+color:#336699;
+}
+
+/* ===main=== */
+#about{
+display:block;
+max-height:500px;
+max-width:300px;
+background-color:#336699;
+border: 2px solid #000000;
+position:absolute;
+top:0;
+margin:15px 0px 0px 30px;
+padding: 30px;
+}
+
+p.about{
+text-align:justify;
+font-size:1em;
+color:#ffffff;
+}
+
+span.name {
+color:yellow;
+font-size:
+}
+
+
+span.course {
+color:yellow;
+}
+
+/* ===Footer=== */
+li.footer {
+list-style-type: none;
+color:#ffffff;
+}
